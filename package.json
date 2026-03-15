@@ -2,7 +2,7 @@
   "name": "squad9",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "version": "0.1.0",
   "bin": {
     "squad9": "./bin/squad9"
   },
