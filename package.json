@@ -7,7 +7,8 @@
     "squad9": "./bin/squad9"
   },
   "scripts": {
-      "fmt": "bun run biome format --write ./{src,tests,bin}"
+      "fmt": "bun run biome format --write ./{src,tests,bin}",
+      "lint": "bun run biome lint ./{src,tests,bin}"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.7",
