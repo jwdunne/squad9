@@ -1,0 +1,20 @@
+{
+  "name": "squad9",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "squad9": "./bin/squad9"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.7",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.1.87",
+    "neverthrow": "^8.2.0"
+  }
+}
